@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+canvas {
+    border: 2px solid #ccc;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+input[type="file"], input[type="text"] {
+    margin: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+.download-buttons {
+    margin-top: 20px;
+}
+
+.download-buttons button {
+    background-color: #008CBA;
+    margin: 5px;
+}
